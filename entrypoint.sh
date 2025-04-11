@@ -26,7 +26,7 @@ start_heroku() {
 }
 
 start_heroku
-keep_alive_local &
+keep_alive &
 monitor_forbidden &
 
 tail -f /dev/null
